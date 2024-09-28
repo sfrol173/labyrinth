@@ -1,0 +1,18 @@
+.art-board-navigation {
+  display: flex;
+  align-items: flex-end;
+  margin: -8px;
+
+  .art-board-item {
+    margin: 8px;
+
+    &.item--size {
+      display: flex;
+      align-items: flex-end;
+
+      .button {
+        margin-left: 16px;
+      }
+    }
+  }
+}
